@@ -34,3 +34,26 @@ div.form-button:hover {
     background-color: var(--hover-bg-color) !important;
     color: var(--hover-f-color) !important;
 }
+
+
+button {
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgb(236, 236, 240);
+}
+
+button:hover:not(.disabled) {
+    border: 1px solid rgb(51, 153, 255);
+    background-color: rgb(201, 222, 245);
+}
+
+button:active:not(.disabled) {
+    border: 1px solid var(--hover-f-color);
+    background-color: var(--hover-f-color);
+    color:white;
+}
+
+button:focus {
+    border: 1px solid rgb(51, 153, 255);
+    background-color: rgb(201, 222, 245);
+    outline: none;
+}
